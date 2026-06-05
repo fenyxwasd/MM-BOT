@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stumble Prix — Loja Oficial</title>
+  <meta name="description" content="Loja oficial Stumble Prix com letras coloridas, cargos exclusivos e pagamento via PIX com QR Code." />
+  <link rel="icon" type="image/png" href="images/app-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="brand" aria-label="Stumble Prix">
+        <img src="images/app-icon.png" alt="" class="brand-icon" />
+        <span class="brand-text">Stumble <span class="brand-accent">Prix</span></span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#letras" class="nav-link">Letras</a>
+        <a href="#cargos" class="nav-link">Cargos</a>
+        <a href="#pagamento" class="nav-link">Pagamento</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content">
+        <img src="images/stumble-prix.png" alt="Stumble Prix" class="hero-logo" />
+        <span class="tag">Loja Oficial</span>
+        <h1 class="hero-title">Bem-vindo à loja <span class="accent">Stumble Prix</span></h1>
+        <p class="hero-subtitle">Compre letras coloridas e cargos exclusivos. Pagamento rápido via PIX com QR Code automático.</p>
+        <div class="hero-buttons">
+          <a href="#letras" class="btn btn-primary">Ver Letras</a>
+          <a href="#cargos" class="btn btn-secondary">Ver Cargos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="letras" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Letras <span class="accent">Coloridas</span></h2>
+          <p class="section-subtitle">Escolha uma letra exclusiva para personalizar seu perfil.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <div class="letter-preview yellow">W</div>
+            <div class="card-body">
+              <h3 class="card-title">W Amarelo</h3>
+              <p class="card-price">R$ 7,50</p>
+              <p class="card-desc">Letra W na cor amarela.</p>
+              <button class="btn btn-buy" data-item="W Amarelo" data-price="7,50">Comprar</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="letter-preview red">W</div>
+            <div class="card-body">
+              <h3 class="card-title">W Vermelho</h3>
+              <p class="card-price">R$ 8,00</p>
+              <p class="card-desc">Letra W na cor vermelha.</p>
+              <button class="btn btn-buy" data-item="W Vermelho" data-price="8,00">Comprar</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="letter-preview cyan">W</div>
+            <div class="card-body">
+              <h3 class="card-title">W Cyano</h3>
+              <p class="card-price">R$ 6,50</p>
+              <p class="card-desc">Letra W na cor cyano.</p>
+              <button class="btn btn-buy" data-item="W Cyano" data-price="6,50">Comprar</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="letter-preview green">W</div>
+            <div class="card-body">
+              <h3 class="card-title">W Verde</h3>
+              <p class="card-price">R$ 3,50</p>
+              <p class="card-desc">Letra W na cor verde.</p>
+              <button class="btn btn-buy" data-item="W Verde" data-price="3,50">Comprar</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="letter-preview brown">W</div>
+            <div class="card-body">
+              <h3 class="card-title">W Marrom</h3>
+              <p class="card-price">R$ 4,00</p>
+              <p class="card-desc">Letra W na cor marrom.</p>
+              <button class="btn btn-buy" data-item="W Marrom" data-price="4,00">Comprar</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="letter-preview black">W</div>
+            <div class="card-body">
+              <h3 class="card-title">W Preto</h3>
+              <p class="card-price">R$ 10,00</p>
+              <p class="card-desc">Letra W preta exclusiva.</p>
+              <button class="btn btn-buy" data-item="W Preto" data-price="10,00">Comprar</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cargos" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Cargos <span class="accent">Exclusivos</span></h2>
+          <p class="section-subtitle">Ganhe destaque e permissões especiais na comunidade.</p>
+        </div>
+
+        <div class="grid grid-2">
+          <article class="card card-role">
+            <div class="role-badge">★ TOUR HOSTER</div>
+            <div class="card-body">
+              <h3 class="card-title">Tour Hoster</h3>
+              <p class="card-price">R$ 25,00</p>
+              <ul class="role-features">
+                <li>Permissão para criar tours</li>
+                <li>Tag exclusiva no servidor</li>
+                <li>Acesso a canais privados</li>
+                <li>Reconhecimento como host oficial</li>
+              </ul>
+              <button class="btn btn-buy" data-item="Cargo Tour Hoster" data-price="25,00">Comprar Cargo</button>
+            </div>
+          </article>
+
+          <article class="card card-role">
+            <div class="role-badge role-badge-alt">♛ EVENT HOSTER</div>
+            <div class="card-body">
+              <h3 class="card-title">Event Hoster</h3>
+              <p class="card-price">R$ 35,00</p>
+              <ul class="role-features">
+                <li>Permissão para criar eventos</li>
+                <li>Tag exclusiva no servidor</li>
+                <li>Acesso a canais privados</li>
+                <li>Destaque em anúncios oficiais</li>
+              </ul>
+              <button class="btn btn-buy" data-item="Cargo Event Hoster" data-price="35,00">Comprar Cargo</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pagamento" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Pagamento <span class="accent">PIX</span></h2>
+          <p class="section-subtitle">Copie a chave ou escaneie o QR Code.</p>
+        </div>
+
+        <div class="payment-card">
+          <div class="payment-header">
+            <div class="pix-icon">PIX</div>
+            <div>
+              <h3 class="payment-title">Pague com PIX</h3>
+              <p class="payment-mini">QR Code gerado automaticamente por API.</p>
+            </div>
+          </div>
+          <div class="payment-body">
+            <p class="payment-label">Chave PIX:</p>
+            <div class="payment-key">
+              <span id="pixKey">espanha9ofc@gmail.com</span>
+              <button class="btn btn-copy" id="copyBtn">Copiar</button>
+            </div>
+
+            <div class="qr-box">
+              <img id="paymentQr" alt="QR Code PIX" class="qr-img" />
+              <p class="qr-text">QR Code da chave PIX</p>
+            </div>
+
+            <ol class="payment-steps">
+              <li>Escolha o item desejado e clique em comprar.</li>
+              <li>Copie a chave PIX ou escaneie o QR Code.</li>
+              <li>Envie o comprovante junto com o nome do item.</li>
+              <li>Aguarde a entrega do item ou cargo.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/app-icon.png" alt="" class="footer-icon" />
+        <span>Stumble <span class="brand-accent">Prix</span></span>
+      </div>
+      <p class="footer-text">© 2026 Stumble Prix — Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="buyModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card">
+      <button class="modal-close" data-close aria-label="Fechar">×</button>
+      <h3 class="modal-title">Finalizar Compra</h3>
+      <p class="modal-item">Item: <strong id="modalItem">—</strong></p>
+      <p class="modal-item">Valor: <strong>R$ <span id="modalPrice">—</span></strong></p>
+
+      <div class="modal-pix">
+        <div class="pix-icon small">PIX</div>
+        <div class="modal-pix-content">
+          <p class="payment-label">Chave PIX:</p>
+          <div class="payment-key compact">
+            <span id="modalPixKey">espanha9ofc@gmail.com</span>
+            <button class="btn btn-copy" id="modalCopyBtn">Copiar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="qr-box modal-qr-box">
+        <img id="modalQr" alt="QR Code da compra" class="qr-img" />
+        <p class="qr-text">Escaneie para pagar este pedido</p>
+      </div>
+
+      <p class="modal-note">Depois do pagamento, envie o comprovante junto com o item comprado.</p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
